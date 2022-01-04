@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="firstAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="430.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane fx:id="secondAnchor" layoutX="-5.0" layoutY="-2.0" prefHeight="75.0" prefWidth="436.0" style="-fx-background-color: #4a2a90;">
+         <children>
+            <Text fx:id="mainText" fill="#8f8e2b" layoutX="106.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="200.0" text="Weather Detector" textAlignment="CENTER" wrappingWidth="248.13671875">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="enterTheCity" alignment="TOP_LEFT" layoutX="71.0" layoutY="86.0" prefHeight="33.0" prefWidth="285.0" promptText="Enter the city">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="checkTheWeather" layoutX="111.0" layoutY="148.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="205.0" text="Check the weather" textFill="#4a2a90">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Text fx:id="information" fill="#4a2a90" layoutX="31.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMATION" wrappingWidth="205.26953125">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="temperature" fill="#8f8e2b" layoutX="29.0" layoutY="302.0" strokeDashOffset="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature:" wrappingWidth="234.34033203125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="feelsLike" fill="#8f8e2b" layoutX="29.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feels like:" wrappingWidth="234.34033203125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="maximum" fill="#8f8e2b" layoutX="29.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum:" wrappingWidth="234.34033203125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="minimum" fill="#8f8e2b" layoutX="29.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimum:" wrappingWidth="234.34033203125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="presure" fill="#8f8e2b" layoutX="29.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Presure:" wrappingWidth="205.26953125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="wind" fill="#8f8e2b" layoutX="29.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wind:" wrappingWidth="234.34033203125">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
